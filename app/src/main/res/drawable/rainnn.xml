@@ -1,0 +1,11 @@
+<!-- res/drawable/rain_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="100dp" android:height="100dp" />
+    <corners android:radius="0dp" />
+    <solid android:color="#88aaff" />
+    <gradient
+        android:startColor="#ffffff"
+    android:endColor="#ffffff"
+    android:type="linear"
+    android:angle="90" />
+</shape>

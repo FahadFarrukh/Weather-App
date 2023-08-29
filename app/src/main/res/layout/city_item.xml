@@ -1,0 +1,31 @@
+<!-- res/layout/city_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="14dp"
+    android:background="@color/white"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginTop="9dp">
+
+    <ImageView
+        android:id="@+id/imageViewFlag"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/pakistan" /> <!-- Replace "turkey" with the actual drawable resource name -->
+
+
+    <TextView
+        android:id="@+id/textViewCityName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:paddingStart="16dp"
+        android:text="City Name"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
